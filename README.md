@@ -65,3 +65,7 @@ El retrato grande y el avatar inicial se han sustituido por una sola composició
 ## Evidencias incorporadas de Júpiter
 
 Se han extraído imágenes originales de la presentación facilitada: dashboard (diapositiva 16), KPIs (12) y modelo relacional (8 y 10). Reemplazan todos los placeholders visuales de la web. El caso incluye ampliación con diálogo, cierre mediante Escape y devolución del foco; sin JavaScript los enlaces abren la imagen original. Las imágenes se atribuyen al equipo y las cifras del dashboard se contextualizan como escenario académico. La diapositiva 25 confirma accuracy y F1 de 0,81; no especifica F1 macro ni tamaño de prueba, que siguen atribuidos a SPEC.md. No se incorpora la presentación completa. Esta actualización sustituye las notas anteriores sobre capturas pendientes.
+
+## Acceso al CV y proyectos destacados
+
+La cabecera de ambas páginas incluye Descargar CV (dentro del menú desplegable en móvil). La tarjeta destacada y la tarjeta completa de Júpiter enlazan al caso. El contenedor `.selected-projects` adapta automáticamente la composición cuando se añaden un segundo y un tercer artículo real: un proyecto ocupa el ancho, dos usan dos columnas y tres usan tres en escritorio. No se muestran tarjetas vacías. Para incorporar proyectos, crear su caso y añadir un `article.project-row` con su enlace, imagen, resumen y CTA.
